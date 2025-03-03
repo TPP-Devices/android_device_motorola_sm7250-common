@@ -33,11 +33,11 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosp
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage/lineage-sdk \
+    $(LOCAL_PATH)/overlay-aosp/lineage-sdk \
 
 # A/B
 AB_OTA_UPDATER := true
@@ -70,9 +70,6 @@ PRODUCT_PACKAGES += \
     e2fsck_ramdisk \
     tune2fs_ramdisk \
     resize2fs_ramdisk
-
-# Blur
-TARGET_ENABLE_BLUR := true
 
 # Properties
 -include $(LOCAL_PATH)/properties.mk
