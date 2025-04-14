@@ -133,7 +133,8 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libsndmonitor \
     libvolumelistener \
-    libtinycompress
+    libtinycompress    \
+    MotoDolby
 
 PRODUCT_PACKAGES += \
     liba2dpoffload
