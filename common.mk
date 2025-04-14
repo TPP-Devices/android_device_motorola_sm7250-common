@@ -122,15 +122,18 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
+    libaudiopreprocessing \
+    libqcompostprocbundle \
     libaudio-resampler \
     libaudioroute \
     libhdmiedid \
     libhfp \
+    libvisualizer \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libsndmonitor \
     libvolumelistener \
-    libtinycompress 
+    libtinycompress
 
 PRODUCT_PACKAGES += \
     liba2dpoffload
